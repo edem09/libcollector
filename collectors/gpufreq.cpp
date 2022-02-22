@@ -53,7 +53,6 @@ bool GPUFreqCollector::parse(const char* buffer)
         {
             freq = 0;
         }
-        // on qcom, they store hz, not mhz... so transform to mhz
     }
     add("gpufreq");
 
